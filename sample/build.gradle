@@ -1,10 +1,10 @@
-apply plugin: 'java'
+apply plugin: 'application'
 
 compileJava {
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
 }
 
 dependencies {
-    compile project(':service')
+    implementation project(':service')
 }
