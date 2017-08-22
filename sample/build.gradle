@@ -1,5 +1,7 @@
 apply plugin: 'application'
 
+mainClassName = 'io.janet.command.sample.CommandSample'
+
 compileJava {
     sourceCompatibility = '1.8'
     targetCompatibility = '1.8'
