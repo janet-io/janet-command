@@ -1,5 +1,5 @@
 ## CommandActionService
-ActionService for [Janet](https://github.com/techery/janet) which delegates job execution back to command action.  
+ActionService for [Janet](https://github.com/janet-io/janet) which delegates job execution back to command action.  
 
 ### Getting Started
 ##### 1. Define service and add it to `Janet`
@@ -72,13 +72,13 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.techery:janet-command:xxx'
+    compile 'com.github.janet-io:janet-command:xxx'
     // explicitly depend on latest Janet for bug fixes and new features (optionally)
-    compile 'com.github.techery:janet:zzz' 
+    compile 'com.github.janet-io:janet:zzz' 
 }
 ```
-* janet: [![](https://jitpack.io/v/techery/janet.svg)](https://jitpack.io/#techery/janet)
-* janet-command: [![](https://jitpack.io/v/techery/janet-command.svg)](https://jitpack.io/#techery/janet-command)
+* janet: [![](https://jitpack.io/v/janet-io/janet.svg)](https://jitpack.io/#janet-io/janet)
+* janet-command: [![](https://jitpack.io/v/janet-io/janet-command.svg)](https://jitpack.io/#janet-io/janet-command)
 
 ## License
 
